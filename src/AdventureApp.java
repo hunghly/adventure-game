@@ -7,7 +7,7 @@ public class AdventureApp {
         adventurer.displayStats();
 
         // Create Monsters
-        Monster dragon = new Monster("Dragon", 200, 13, 3);
+        Monster dragon = new Monster("Dragon", 220, 13, 3);
         Monster bear = new Monster("Bear", 100, 10, 2);
         Monster gnoll = new Monster("Gnoll", 40, 7, 1);
         Monster goblin = new Monster("Goblin", 30, 5, 0);
@@ -67,7 +67,7 @@ public class AdventureApp {
     public static void printRogueDetails() {
         System.out.println("\n2. Class: ROGUE");
         System.out.println("Description: A rogue has high attack, moderate defense, and moderate spell casting");
-        System.out.printf("Health: %d | Mana: %d | Attack %d | Spell Power %d | Defense %d | Potions %d\n", 150, 75, 8, 10, 4, 4);
+        System.out.printf("Health: %d | Mana: %d | Attack %d | Spell Power %d | Defense %d | Potions %d\n", 150, 75, 8, 10, 4, 3);
     }
 
     public static void printMageDetails() {
