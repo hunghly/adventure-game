@@ -12,6 +12,9 @@ public class AdventureApp {
         Monster gnoll = new Monster("Gnoll", 40, 7, 1);
         Monster goblin = new Monster("Goblin", 30, 5, 0);
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("hello");
+
         startBattle(adventurer, goblin);
         startBattle(adventurer, gnoll);
         startBattle(adventurer, bear);

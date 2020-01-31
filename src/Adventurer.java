@@ -76,4 +76,5 @@ public class Adventurer {
         System.out.println("-----------------------------------------------------------------");
         System.out.printf("Max Health: %4d | Current Health: %4d | Max Mana: %4d | Current Mana: %4d | Attack %3d | Spell Power %3d | Defense %3d | Potions %2d\n\n\n", this.maxHealth, this.currentHealth, this.maxMana, this.currentMana, this.attack, this.spellPower, this.defense, this.potions);
     }
+
 }
